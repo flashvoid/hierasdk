@@ -6,7 +6,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/lyraproj/hierasdk/hiera"
+	"github.com/flashvoid/hierasdk/hiera"
 )
 
 type (

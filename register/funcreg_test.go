@@ -5,9 +5,9 @@ import (
 
 	require "github.com/lyraproj/dgo/dgo_test"
 
+	"github.com/flashvoid/hierasdk/hiera"
+	"github.com/flashvoid/hierasdk/register"
 	"github.com/lyraproj/dgo/dgo"
-	"github.com/lyraproj/hierasdk/hiera"
-	"github.com/lyraproj/hierasdk/register"
 )
 
 func TestDataDig(t *testing.T) {
