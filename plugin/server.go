@@ -15,10 +15,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/flashvoid/hierasdk/hiera"
+	"github.com/flashvoid/hierasdk/routes"
 	"github.com/lyraproj/dgo/dgo"
 	"github.com/lyraproj/dgo/vf"
-	"github.com/lyraproj/hierasdk/hiera"
-	"github.com/lyraproj/hierasdk/routes"
 )
 
 const defaultMinPort = 10000
