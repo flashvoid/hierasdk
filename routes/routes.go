@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/flashvoid/hierasdk/hiera"
+	"github.com/flashvoid/hierasdk/register"
 	"github.com/lyraproj/dgo/dgo"
 	"github.com/lyraproj/dgo/vf"
-	"github.com/lyraproj/hierasdk/hiera"
-	"github.com/lyraproj/hierasdk/register"
 )
 
 func callDataDig(q url.Values, f interface{}) dgo.Value {

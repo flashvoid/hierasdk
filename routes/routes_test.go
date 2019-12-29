@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/flashvoid/hierasdk/hiera"
+	"github.com/flashvoid/hierasdk/register"
 	"github.com/lyraproj/dgo/dgo"
 	"github.com/lyraproj/dgo/vf"
-	"github.com/lyraproj/hierasdk/hiera"
-	"github.com/lyraproj/hierasdk/register"
 )
 
 func TestNoHandler(t *testing.T) {
